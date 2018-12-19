@@ -1,0 +1,48 @@
+package com.ssm.pojo;
+
+public class User {
+	private String userName;//姓名
+	private String[] hobby;//兴趣爱好
+	private String[] friends;//朋友
+	private String carrer;//职业
+	private String houseRegister;//户籍
+	private String remark;//自我评价
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String[] getHobby() {
+		return hobby;
+	}
+	public void setHobby(String[] hobby) {
+		this.hobby = hobby;
+	}
+	public String[] getFriends() {
+		return friends;
+	}
+	public void setFriends(String[] friends) {
+		this.friends = friends;
+	}
+	public String getCarrer() {
+		return carrer;
+	}
+	public void setCarrer(String carrer) {
+		this.carrer = carrer;
+	}
+	public String getHouseRegister() {
+		return houseRegister;
+	}
+	public void setHouseRegister(String houseRegister) {
+		this.houseRegister = houseRegister;
+	}
+	public String getRemark() {
+		return remark;
+	}
+	public void setRemark(String remark) {
+		this.remark = remark;
+	}
+	
+	
+}
